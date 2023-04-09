@@ -3,7 +3,7 @@ console.log('Hello@@@');
 console.log('Hello', '@@@', '!!!java');
 console.log('안녕');
 
-// alert('Hello Javascript!');
+// alert('Hello Javascript!'); //경고메시지
 /*
 console.log('Hello!');
 console.log('Hello@@@');
