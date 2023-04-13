@@ -15,7 +15,11 @@ addBtn.addEventListener('click', function () {
   button.textContent = 'X';
   // button.setAttribute('class', 'remove-btn');
   button.classList.add('remove-btn');
-  button.addEventListener('click', removeParentNode);
+  button.addEventListener('click', function (event) {
+    event.target.parentNode.remove();
+    inputBox.focus();
+    inputBox.value = '';
+  });
   li.appendChild(button);
   ul.appendChild(li);
   inputBox.value = '';
@@ -37,8 +41,12 @@ removeTargetBtn.addEventListener('click', function () {
   targetLi.remove();
 });
 
-removeBtn.addEventListener('click', removeParentNode);
+removeBtn.addEventListener('click', function (event) {
+  event.target.parentNode.remove();
+});
 
 function removeParentNode(event) {
   event.target.parentNode.remove();
+  inputBox.value = '';
+  inputBox.focus();
 }
