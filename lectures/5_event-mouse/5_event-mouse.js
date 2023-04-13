@@ -4,7 +4,7 @@ let body = document.querySelector('body');
 rectangle.addEventListener('mousedown', function (event) {
   console.log('mousedown');
   // console.log(event.target);
-  console.log(event.target.getBoundingClientRect());
+  // console.log(event.target.getBoundingClientRect());
   // console.log('client X: ', event.clientX, 'client Y: ', event.clientY);
   // console.log('page X: ', event.pageX, 'page Y: ', event.pageY);
 });
