@@ -29,3 +29,21 @@ console.log(message);
 
 const hello = "안녕하세요\n제 이름은 '유진주'입니다.";
 console.log(hello);
+
+//불리언
+const isProgramer = true;
+const isDesign = false;
+console.log('isProgramer: ', typeof isProgramer);
+console.log('isDesign: ', isDesign);
+if (isProgramer) {
+  console.log('프로그래머입니다.');
+} else {
+  console.log('디자이너입니다.');
+}
+
+//null, undefined
+const username = null;
+let message2;
+console.log('username: ', username);
+console.log('message2: ', message2);
+console.log(typeof username);
