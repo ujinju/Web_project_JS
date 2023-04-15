@@ -24,5 +24,8 @@ console.log('------------');
 console.log(`안녕하세요 제 이름은 ${name}입니다. 나이는 ${age}살이에요.`);
 const message = `안녕하세요
 
-이렇게 표현할 수 있어요`;
+이렇게 표현할 수 있어요`; // 백틱(`) 사용
 console.log(message);
+
+const hello = "안녕하세요\n제 이름은 '유진주'입니다.";
+console.log(hello);
