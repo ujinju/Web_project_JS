@@ -47,3 +47,18 @@ let message2;
 console.log('username: ', username);
 console.log('message2: ', message2);
 console.log(typeof username);
+
+const person = {
+  name: '유진주',
+  age: 22,
+  isPerson: true,
+  say() {
+    console.log('Hello!');
+  },
+};
+
+const arr = [1, 2, 3, 4, 5];
+
+console.log(arr.length);
+arr.push(88);
+console.log(arr);
