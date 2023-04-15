@@ -1,4 +1,4 @@
-'use strict';
+'use strict'; //항상 'use strict'를 선언해놓고 코드 작성
 number = 3;
 console.log(number);
 
