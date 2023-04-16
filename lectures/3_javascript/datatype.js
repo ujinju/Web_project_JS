@@ -48,6 +48,7 @@ console.log('username: ', username);
 console.log('message2: ', message2);
 console.log(typeof username);
 
+//객체들은 값을 여러개 가질 수 있다.
 const person = {
   name: '유진주',
   age: 22,
@@ -59,6 +60,7 @@ const person = {
 
 const arr = [1, 2, 3, 4, 5];
 
+//arr는 length, push 기능들을 갖고 있다.
 console.log(arr.length);
 arr.push(88);
 console.log(arr);
