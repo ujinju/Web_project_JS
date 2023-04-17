@@ -25,6 +25,7 @@
 //   console.log('등급은 F');
 // }
 
+//flase, 0, null, undefined, '', NaN -> false
 let condition = NaN;
 if (condition) {
   console.log('참입니다.');
